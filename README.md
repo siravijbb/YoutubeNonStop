@@ -11,6 +11,9 @@ Available for:
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/) <a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/">
 <img src="https://github.com/lawfx/YoutubeNonStop/blob/master/images/firefox_logo.png" width="25" height="25" /></a> (see below)
 
+[Edge](https://microsoftedge.microsoft.com/addons/detail/youtube-nonstop/lgakodbaikpcnfpmanpenlgaghdaifbm) <a href="https://microsoftedge.microsoft.com/addons/detail/youtube-nonstop/lgakodbaikpcnfpmanpenlgaghdaifbm">
+<img src="https://github.com/lawfx/YoutubeNonStop/blob/master/images/edge_logo.png" width="25" height="25" /></a>
+
 For Opera install this extension first https://addons.opera.com/en/extensions/details/install-chrome-extensions/ and then install YouTube NonStop from the Chrome store.
 
 ---
