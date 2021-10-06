@@ -1,4 +1,4 @@
-# YoutubeNonStop
+# Youtube NonStop
 ![YouTube NonStop Logo](https://github.com/lawfx/YoutubeNonStop/blob/master/images/yns128.png)
 
 Autoclicker for Youtube's latest "feature" - Video paused. Continue watching?
