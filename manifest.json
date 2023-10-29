@@ -1,20 +1,32 @@
 {
   "name": "YouTube NonStop",
   "short_name": "YT NonStop",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Kiss the annoying \"Video paused. Continue watching?\" confirmation goodbye!",
-  "permissions": ["declarativeContent"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "autoconfirm.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://music.youtube.com/*"
+      ]
+    }
+  ],
   "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*", "https://music.youtube.com/*"],
-      "js": ["autoconfirm.js"],
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://music.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_end"
     }
   ],
-  "background": {
-    "scripts": ["background.js"]
-  },
-  "page_action": {
+  "action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "images/yns16.png",
@@ -29,5 +41,5 @@
     "48": "images/yns48.png",
     "128": "images/yns128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
